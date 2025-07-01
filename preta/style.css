@@ -1,20 +1,25 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fcecef;
-    color: #30192e;
-    padding: 30px;
-  }
-  
-  h1 {
-    color: #b90e5c;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #b90e5c;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+  background: url('../img/preta.jpg') no-repeat center center;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  padding: 50px;
+  text-shadow: 1px 1px 3px #000;
+  min-height: 100vh;
+  margin: 0;
+}
+a {
+  color: #f8f8f8;
+}
+button {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}

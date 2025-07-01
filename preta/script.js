@@ -1,4 +1,3 @@
 function mostrarMensagem() {
-    alert("¡Preta Gil lucha por el arte, el amor y la inclusión!");
-  }
-  
+  alert("Preta Gil é arte, coragem e orgulho para o Brasil!");
+}

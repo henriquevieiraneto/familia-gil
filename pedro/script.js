@@ -1,4 +1,3 @@
 function mostrarMensagem() {
-    alert("Pedro Gil sigue presente en la memoria y el corazón de su familia.");
-  }
-  
+  alert("Pedro Gil vive na memória e na arte da família que tanto o ama.");
+}

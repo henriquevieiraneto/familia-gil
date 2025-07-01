@@ -1,55 +1,65 @@
-/* Estilo global para a página principal (index.html) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('img/fundo-principal.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    padding: 50px;
-    text-shadow: 1px 1px 3px #000000;
-    min-height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  /* Título da página */
-  h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    color: #ffffff;
-  }
-  
-  /* Parágrafo de introdução */
-  p {
-    font-size: 18px;
-    max-width: 600px;
-    margin-bottom: 30px;
-  }
-  
-  /* Lista de links para os membros da família */
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 15px;
-  }
-  
-  a {
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.15);
-    color: #fff;
-    padding: 10px 16px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-  }
-  
-  a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-  
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('img/familia.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.75);
+  z-index: 0;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  padding: 60px;
+  max-width: 700px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+li a {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}

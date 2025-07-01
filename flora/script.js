@@ -1,4 +1,3 @@
 function mostrarMensagem() {
-    alert("¡Flora Gil impulsa la cultura brasileña con talento y corazón!");
-  }
-  
+  alert("Flora Gil é força, criatividade e coração da cultura brasileira!");
+}
