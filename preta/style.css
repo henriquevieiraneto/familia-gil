@@ -1,25 +1,48 @@
 body {
-  background: url('../img/preta.jpg') no-repeat center center;
+  background-image: url('../img/fundo-latino.png');
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: 'Segoe UI', sans-serif;
-  color: #ffffff;
-  padding: 50px;
-  text-shadow: 1px 1px 3px #000;
-  min-height: 100vh;
+  padding: 60px;
   margin: 0;
+  min-height: 100vh;
+  color: #000;
 }
+
+.caixa {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #111;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.foto {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
 a {
-  color: #f8f8f8;
-}
-button {
-  background-color: rgba(255, 255, 255, 0.15);
-  color: #fff;
-  padding: 10px 18px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-button:hover {
-  background-color: rgba(255, 255, 255, 0.35);
+  color: #222;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
 }
